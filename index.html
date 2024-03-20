@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>SaintEx - надежный обменник электронной валюты</title>
+	<meta name="description" content="SaintEx - надежный обменник электронной валюты">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
+
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+
+	<div class="app">
+		<header>
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-lg-5">
+						<div
+							class="d-flex align-items-center justify-content-lg-start justify-content-between flex-row-reverse flex-lg-row">
+							<button class="toggle_button align-items-center">
+								<img src="images/icons/pie_menu.svg">
+							</button>
+							<a href="#" class="logo">
+								<img src="images/logo_hor.svg">
+							</a>
+						</div>
+					</div>
+					<div class="col d-lg-block d-none">
+						<div class="d-flex align-items-center justify-content-end">
+							<div class="tolbar_lang">
+								<div class="langlist_div">
+									<div class="langlist_title d-flex align-items-center">
+										<img src="images/icons/ru_RU.png">
+										<span>Русский</span>
+									</div>
+									<div class="langlist_ul">
+										<a href="#" class="langlist_li d-flex align-items-center">
+											<div class="langlist_liimg">
+												<img src="images/icons/en_US.png">
+											</div>
+											English
+										</a>
+										<a href="#" class="langlist_li d-flex align-items-center">
+											<div class="langlist_liimg">
+												<img src="images/icons/zh_CN.png">
+											</div>
+											中文
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="btn-group">
+								<a href="#" class="btn">Войти</a>
+								<a href="#" class="btn btn_bordered">Зарегистрироваться</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside>
+			<div class="aside_overlay"></div>
+			<div class="aside_menu">
+				<button class="toggle_button align-items-center">
+					<img src="images/icons/close_menu.svg">
+				</button>
+				<div class="tolbar_lang mt-5 d-block d-lg-none">
+					<div class="langlist_div">
+						<div class="langlist_title d-flex align-items-center">
+							<img src="images/icons/ru_RU.png">
+							<span>Русский</span>
+						</div>
+						<div class="langlist_ul">
+							<a href="#" class="langlist_li d-flex align-items-center">
+								<div class="langlist_liimg">
+									<img src="images/icons/en_US.png">
+								</div>
+								English
+							</a>
+							<a href="#" class="langlist_li d-flex align-items-center">
+								<div class="langlist_liimg">
+									<img src="images/icons/zh_CN.png">
+								</div>
+								中文
+							</a>
+						</div>
+					</div>
+				</div>
+				<nav class="mt-4">
+					<ul>
+						<li>
+							<a href="#" class="d-flex align-items-center">
+								<img src="images/icons/exchange_small.svg" loading="lazy">
+								<span>Новый обмен</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="d-flex align-items-center">
+								<img src="images/icons/reserves.svg" loading="lazy">
+								<span>Резервы</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="d-flex align-items-center">
+								<img src="images/icons/faq.svg" loading="lazy">
+								<span>FAQ</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="d-flex align-items-center">
+								<img src="images/icons/contacts.svg" loading="lazy">
+								<span>Контакты</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="d-lg-none d-block">
+					<a href="#" class="btn w-100">Войти</a>
+					<a href="#" class="btn btn_bordered mt-2 w-100">Зарегистрироваться</a>
+				</div>
+				<div class="mt-5">
+					<div>
+						<a href="#" class="link-text medium">support@saintexchange.com</a>
+						<div class="less light">Поддержка</div>
+					</div>
+				</div>
+				<div class="mt-3">
+					<div>
+						<a href="#" class="link-text medium">с 10-20:00 по МСК</a>
+						<div class="less light">Время работы</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<!-- end header.php -->
+		<main>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="page_title text-center">
+							<h1>Обмен валют</h1>
+							<p class="mb-0">Что меняем и на что?</p>
+						</div>
+						<div class="exchange_widget">
+							<div class="exchange_widget_steps ">
+								<div class="line-wrap">
+									<div class="line">
+										<div class="line_progress"></div>
+									</div>
+								</div>
+								<div class="exchange_widget_steps_points d-flex justify-content-between align-items-center">
+									<div class="current">
+										1
+									</div>
+									<div>
+										2
+									</div>
+									<div>
+										3
+									</div>
+								</div>
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-lg-9">
+									<div class="exchange_message mb-4 mt-5">
+										<p class="mb-0">
+											В целях противодействия легализации доходов, полученных преступным путем, и финансированию
+											терроризма проводятся AML-проверки согласно AML/CTF и KYC Политики
+										</p>
+									</div>
+									<form action="" class="exchange_form mt-3">
+										<div class="exchange_widget_fieldsets">
+											<fieldset>
+												<div
+													class="d-flex justify-content-between align-items-center exchange_form_wrap flex-column flex-xl-row">
+													<div>
+														<div class="choice_input choice_dropdown" data-dropdown="give" data-give="Сбербанк">
+															<div class="choice_give_output">
+																<img src="images/icons/sber.svg">
+																<div class="choice_input_give_text">
+																	Сбербанк RUB
+																</div>
+															</div>
+														</div>
+														<div class="choice_input">
+															<div class="choice_give_input">
+																<div class="d-flex align-items-center">
+																	<img src="images/icons/sber.svg">
+																	<div class="choice_input_give">
+																		<input type="number" name="give_val" value="100200">
+	
+																	</div>
+																</div>
+																<span>RUB</span>
+															</div>
+														</div>
+														<div class="light small">MIN 10000 RUB / MAX 100000 RUB</div>
+													</div>
+													<div class="divider_icon">
+														<img src="images/icons/exchange.svg">
+													</div>
+													<div>
+														<div class="choice_input choice_dropdown" data-dropdown="get" data-get="Bitcoin BTC">
+															<div class="choice_get_output">
+																<img src="images/icons/btc.svg">
+																<div class="choice_input_give_text">
+																	Bitcoin BTC
+																</div>
+															</div>
+														</div>
+														<div class="choice_input">
+															<div class="choice_get_input">
+																<div class="d-flex align-items-center">
+																	<img src="images/icons/btc.svg">
+																	<div class="choice_input_give">
+																		<input type="number" name="give_val" value="0.0000912">
+	
+																	</div>
+																</div>
+																<span>BTC</span>
+															</div>
+														</div>
+														<div class="light small">РЕЗЕРВ 866,5807 BTC</div>
+													</div>
+												</div>
+												<div class="d-flex justify-content-end mt-3">
+													<div class="next btn">Продолжить</div>
+												</div>
+											</fieldset>
+											<fieldset>
+												<div class="exchange_form_wrap">
+													<div class="d-flex justify-content-between align-items-center  flex-column flex-xl-row">
+														<div class="w-100">
+															<div class="choice_input mb-0">
+																<div class="choice_give_total">
+																	<div class="d-flex align-items-center">
+																		<img src="images/icons/sber.svg">
+																		<div class="choice_input_give">
+																			324007
+																		</div>
+																	</div>
+																	<span>RUB</span>
+																</div>
+															</div>
+														</div>
+														<div class="divider_icon m-3">
+															<img src="images/icons/exchange.svg">
+														</div>
+														<div  class="w-100">
+															<div class="choice_input mb-0">
+																<div class="choice_give_total">
+																	<div class="d-flex align-items-center">
+																		<img src="images/icons/sber.svg">
+																		<div class="choice_input_give">
+																			324007
+																		</div>
+																	</div>
+																	<span>RUB</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="four mt-4 mb-3">Откуда отправляете</div>
+													<div class="form-group d-flex align-items-center justify-content-between flex-column flex-md-row">
+														<div class="form-group">
+															<label for="">Номер карты</label>
+															<input type="text" required>
+														</div>
+														<div class="form-group">
+															<label for="">ФИО</label>
+															<input type="text" required>
+														</div>
+													</div>
+													<div class="divider"></div>
+													<div class="four mt-3 mb-3">Куда получаете</div>
+													<div class="form-group">
+														<label for="">Номер кошелька</label>
+														<input type="text" required>
+													</div>
+													<div class="divider"></div>
+													<div class="four mt-3 mb-3">Дополнительная информация</div>
+													<div class="form-group d-flex align-items-center justify-content-between flex-column flex-md-row">
+														<div class="form-group">
+															<label for="">Телеграм</label>
+															<input type="text" required>
+														</div>
+														<div class="form-group">
+															<label for="">E-mail</label>
+															<input type="text" required>
+														</div>
+													</div>
+													<div class="checkbox_wrap mt-3">
+														<label class="checkbox">
+															<input type="checkbox" checked="" name="policy_check" id="policy_check" wfd-id="id2">
+															<span>Я согласен с <a href="#">правилами</a> обменного сервиса и <a href="#">AML\KYC проверкой</a></span>
+															<span class="checkmark"></span>
+														</label>
+													</div>
+													<div class="d-flex justify-content-between mt-lg-5 mt-3 flex-column flex-lg-row">
+														<div class="prev btn btn_bordered" style="background: transparent;">
+															<img src="images/icons/back.svg" style="margin-right: 10px;" alt="">
+															<span>Вернуться назад</span>
+														</div>
+														<div class="next btn mt-2 mt-lg-0">Продолжить</div>
+													</div>
+												</div>
+
+
+											</fieldset>
+											<fieldset>
+												<div class="exchange_form_wrap">
+													<h2>Заявка успешно создана</h2>
+													<p>Сейчас будут отображены все детали заявки</p>
+												</div>
+											</fieldset>
+										</div>
+								</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-xl-4 col-lg-6 col-12">
+					<div class="d-flex align-items-center flex-xl-row flex-column">
+						<a href="#" class="logo">
+							<img src="images/logo_ver.svg">
+						</a>
+						<div class="small link_widget">
+							<div class="copyright mb-1">© 2024 SaintExchange</div>
+							<div>
+								<p class="mb-0 ">
+									<a href="#">Гарантии и политика возвратов</a> <br>и <a href="#">Правила пользования сайтом</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-8 col-lg-6">
+					<div class="d-flex justify-content-end align-items-center f_widgets flex-xl-row flex-column">
+						<div class="f_widget">
+							<a href="#" class="bold">support@saintexchange.com</a>
+							<div class="light small">Поддержка</div>
+						</div>
+						<div class="f_widget">
+							<div class="bold">с 10-20:00 по МСК</div>
+							<div class="light small">Время работы</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+	<!-- start footer.php -->
+	
+	<div class="popup popup-give">
+		<div class="popup-dialog">
+			<div class="popup-wrap">
+				<div class="d-flex align-items-center justify-content-between mb-4">
+					<div>
+						<h3 class="mb-0">Выбрать направление (Отдаю)</h3>
+					</div>
+					<div class="btn-close">
+						<img src="images/icons/close_popup.svg">
+					</div>
+				</div>
+				<div class="val_filters">
+					<div class="active">Все</div>
+					<div>Банки</div>
+					<div>Электронные кошельки</div>
+					<div>Криптовалюта</div>
+				</div>
+				<div class="val_filters_output mt-5">
+					<div class="active" data-to="Сбер RUB">
+						<img src="images/icons/sber.svg" alt="">
+						<span>Сбер RUB</span>
+					</div>
+					<div>
+						<img src="images/icons/alfa.svg" data-to="Альфа банк RUB" alt="">
+						<span>Альфа банк RUB</span>
+					</div>
+					<div>
+						<img src="images/icons/vtb.svg" data-to="ВТБ RUB" alt="">
+						<span>ВТБ RUB</span>
+					</div>
+					<div>
+						<img src="images/icons/tinkoff.svg" data-to="Тинькофф RUB" alt="">
+						<span>Тинькофф RUB</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<!-- end footer.php	 -->
+</body>
+
+</html>

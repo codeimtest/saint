@@ -1,0 +1,153 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+	footer .f_widgets > * + *{
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	.divider_icon{
+		margin: 20px;
+	}
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	header{
+		position: fixed;
+		width: 100%;
+		z-index: 99;
+		border-radius: 0;
+	}
+	main{
+		padding-top: 100px;
+	}
+	header .logo{
+		margin-left: 0;
+	}
+	header .logo img{
+		max-width: 120px;
+	}
+	aside .aside_menu nav ul li a{
+		font-size: var(--fsz18);
+	}
+	aside .aside_menu{
+		padding: 18px;
+		overflow-y: scroll;
+		min-width: 100%;
+	}
+	h1,.one{
+		font-size: 38px;
+	}
+	h2,.two{
+		font-size: 28px;
+	}
+	h3,.three{
+		font-size: 24px;
+	}
+	h4,.four{
+		font-size: 20px;
+	}
+	h5,.five{
+		font-size: 18px;
+	}
+	footer .logo{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.link_widget{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.tolbar_lang{
+		margin-right: 0;
+	}
+	 .tolbar_lang a{
+		padding: 8px 0;
+	}
+	.tolbar_lang a:first-child{
+		padding-top: 14px;
+	}
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	.form-group > .form-group + .form-group{
+		margin-left: 0;
+		margin-top: 16px;
+	}
+	.exchange_form_wrap{
+		padding: 16px;
+	}
+	.exchange_form_wrap > div{
+		width: 100%;
+	}
+	.divider_icon{
+		display: flex;
+    justify-content: center;
+    margin: 30px;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	footer .f_widget{
+		min-width: 100%;
+		padding: 16px;
+	}
+	.exchange_widget_steps .exchange_widget_steps_points div{
+		width: 35px;
+		height: 35px;
+		font-size: 18px;
+	}
+	.exchange_widget_steps .line{
+		height: 5px;
+	}
+	.btn_large{
+		width: 100%;
+	}
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+	.page_title{
+		margin-top: 50px;
+	}
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
